@@ -7,6 +7,9 @@
 
 
 ## Instructions for setting up the development environment and running the Django project.
+
+<br>
+
 **1. Create the Virtual Environment & Install the dependencies for the Django project**\
 &nbsp;&nbsp;&nbsp;&nbsp;1.1 Open up your preferred terminal program. *The [ path | directory ] where the terminal program opens does not matter.*
 
@@ -61,6 +64,8 @@
 ---
 
 ## Instructions for setting up the development environment and running the notification script.
+
+<br>
 
 **1. Create the Virtual Environment & Install the dependencies for the Notification System project folder: Notification-System**\
 &nbsp;&nbsp;&nbsp;&nbsp;1.1 In the terminal program, CD into the Django project folder /Notification-System wherever it may be located on your filesystem. You will need to use the absolute path of this folder.\
