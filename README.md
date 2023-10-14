@@ -1,7 +1,7 @@
-> [!Info] **Note:**
-> [!Info] - This project was built using Python 3.8, so to be on the safe side it would be best to have this version of Python installed or anything above Python 3.8.
-> [!Info] - If you have only one version of python installed then you can use the prefix "python" instead of "py -3" for the commands below, however using the latter should do no harm.
-> [!Info] - After you've entered the virtual environment all commands start with the prefix "python" instead of "py -3", as the virutal environment only has one version of Python available.
+**Note:**
+- This project was built using Python 3.8, so to be on the safe side it would be best to have this version of Python installed or anything above Python 3.8.
+- If you have only one version of python installed then you can use the prefix "python" instead of "py -3" for the commands below, however using the latter should do no harm.
+- After you've entered the virtual environment all commands start with the prefix "python" instead of "py -3", as the virutal environment only has one version of Python available.
 
 ---
 
@@ -12,7 +12,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 Install the pipenv package if it is not already installed using the pip utility that ships with Python.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *py -3 -m pip install pipenv*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `py -3 -m pip install pipenv`
 
 **2. Create the Virtual Environment & Install the dependencies for the Django project**\
 
@@ -79,6 +79,6 @@
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *python ./notifications_non_multi-threaded.py*
 
 
-> [!Info] **Note:**
-> [!Info] - Step 1 only needs to be run once when you first download the source code files.
-> [!Info] - For the notification script to "send out" notifications, as in write notification to the log file, there must be upcoming bookings present in the database related to LREBS web application. You can create the bookings through the LREBS web application.
+**Note:**
+- Step 1 only needs to be run once when you first download the source code files.
+- For the notification script to "send out" notifications, as in write notification to the log file, there must be upcoming bookings present in the database related to LREBS web application. You can create the bookings through the LREBS web application.
