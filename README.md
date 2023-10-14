@@ -58,7 +58,6 @@
 - You can stop the development web server by simply using the keyboard interrupt CTRL+C or by terminating | closing the terminal program.
 - If at any point you close the terminal program this will result in terminating the development web server and you will also exit the virtual environment.
 - To run the development server again you need to perform steps 2 and 3 (in that order).
-
 <br>
 
 ---
