@@ -12,7 +12,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 Install the pipenv package if it is not already installed using the pip utility that ships with Python.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`**Command:** py -3 -m pip install pipenv`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `py -3 -m pip install pipenv`
 
 **2. Create the Virtual Environment & Install the dependencies for the Django project**\
 
@@ -20,23 +20,23 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;2.2 Relative to the /Back-End folder run the command to create a virtual environment & dependencies specific for this project folder.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *py -3 -m pipenv install*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `py -3 -m pipenv install`
 
 &nbsp;&nbsp;&nbsp;&nbsp;Note: During the dependency installation you might get 2 warnings saying that the msvc-runtime and pygraphviz could not be installed. You can safely ignore them as those dependencies are not used within the web application.
 
 **3. Activate | Enter  the Virtual Environment**\
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 To activate | enter the virtual environment, run the following command relative to the /Back-End folder.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *py -3 -m pipenv shell*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `py -3 -m pipenv shell`
 
 **4. Run the development web server**\
 &nbsp;&nbsp;&nbsp;&nbsp;4.1 To run the development web server first CD one level down into the /lrebs folder.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *cd ./lrebs/*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `cd ./lrebs/`
 
 &nbsp;&nbsp;&nbsp;&nbsp;4.2 Now you can run the command to launch the development web server.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *python manage.py runserver 0.0.0.0:8000*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `python manage.py runserver 0.0.0.0:8000`
 
 **5. Test the LREBS web application**\
 &nbsp;&nbsp;&nbsp;&nbsp;5.1 Open up your preferred web browser and type *127.0.0.1:8000/* in the URL box.\
@@ -46,7 +46,7 @@
 **6. Manage data in the database using the Django Admin web application**\
 &nbsp;&nbsp;&nbsp;&nbsp;You can manage the data in the database through the Django Admin web app.
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.1 To access the web app head over to URL: *127.0.0.1:8000/admin*. Note: If you have already logged in to the LREBS web app you wont need to login again.\
+&nbsp;&nbsp;&nbsp;&nbsp;6.1 To access the Django admin web app head over to URL: *127.0.0.1:8000/admin*. Note: If you have already logged in to the LREBS web app you wont need to login again.\
 &nbsp;&nbsp;&nbsp;&nbsp;6.2 The login credentials for LREBS are \[eradicated\]:\[eradicated\].\
 &nbsp;&nbsp;&nbsp;&nbsp;6.3 Once logged in, you will see the tables of the Admin web app as well as the LREBS web app. You can click on each table to explore the data within that table.
 
@@ -66,17 +66,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;1.1 In the terminal program, CD into the Django project folder /Notification-System wherever it may be located on your filesystem. You will need to use the absolute path of this folder.\
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 Relative to the /Notification-System folder run the command to create a virtual environment & install the dependencies specific for this project folder.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *py -3 -m pipenv install*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `py -3 -m pipenv install`
 
 **2. Activate | Enter the Virtual Environment**\
 &nbsp;&nbsp;&nbsp;&nbsp;2.1 To enter the virtual environment run the following command relative to the /Back-End folder.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *py -3 -m pipenv shell*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `py -3 -m pipenv shell`
 
 **3. Run the Notification Script**\
 &nbsp;&nbsp;&nbsp;&nbsp;3.1 To run the notification script run the following command relative to the /Notification-System folder.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** *python ./notifications_non_multi-threaded.py*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `python ./notifications_non_multi-threaded.py`
 
 
 **Note:**
