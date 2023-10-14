@@ -12,7 +12,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;1.2 Install the pipenv package if it is not already installed using the pip utility that ships with Python.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Command:** `py -3 -m pip install pipenv`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`**Command:** py -3 -m pip install pipenv`
 
 **2. Create the Virtual Environment & Install the dependencies for the Django project**\
 
