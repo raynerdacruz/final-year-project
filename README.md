@@ -1,3 +1,35 @@
+# Project Description
+Bookings systems are found wherever there is a communal use of some thing(s). Booking systems help to coordinate access to the shared thing(s), thereby providing convenience and a sense of reassurance that the thing being leased will be exclusively available to the person(s) that booked it. As a result, a booking system allows people plan their day much more effectively.
+
+The task of this project is to build a laundry room equipment booking system which has been implemented in the form of a web application using Django, a python based web framework. One of the added requirements from the client is the booking system must be social distancing compliant. The other added requirement is that it should be able to send out booking notifications near the time of a booking. With regards to the name of the web application, it's called LREBS which is an acronym derived from the project name, Laundry Room Equipment Booking System. Below, you will find a checklist of what's working and what isn't, and instructions to get the web application up and running on your own computer.
+
+<br>
+
+# What's working and what's not working?
+
+## Booking system
+| Requirements        | Met or Not Met or WIP? |
+| ------------- |:-------------:|
+| The system administrator of the sheltered accommodation SHOULD be able to enrol residents onto the system. | 🚧 |
+| The residents of the sheltered accommodation MUST be able to use the system to reserve the equipment in the laundry room.      | ✔ |
+| The residents of the sheltered accommodation MUST be able to amend their reservation(s). | ❌ |
+| The residents of the sheltered accommodation MUST be able to cancel their reservation(s). | ✔ |
+| The residents of the sheltered accommodation MUST be able to view their upcoming reservation(s). | ✔ |
+| The residents of the sheltered accommodation SHOULD be able to configure the settings related to the notification reminders. | ✔ |
+| The system must be built in compliance with the rules and regulations of the sheltered accommodation e.g. social distancing. | ✔ |
+
+<br>
+
+## Notification System
+| Requirements        | Met or Not Met or WIP? |
+| ------------- |:-------------:|
+| The Notification System should send out reminders to residents of the sheltered accommodation reminding them of their upcoming reservation. | 🚧 |
+| The Notification System must send out reminders to residents of the sheltered when their laundry is completed. | 🚧 |
+
+<br>
+
+---
+# With regards to the instructions in the following sections below:
 **Note:**
 - This project was built using Python 3.8, so to be on the safe side it would be best to have this version of Python installed or anything above Python 3.8.
 - If you have only one version of python installed then you can use the prefix "python" instead of "py -3" for the commands below, however using the latter should do no harm.
@@ -5,8 +37,10 @@
 
 ---
 
+<br>
 
-## Instructions for setting up the development environment and running the Django project.
+
+# Instructions for setting up the development environment and running the Django project.
 
 <br>
 
@@ -62,7 +96,7 @@
 
 ---
 
-## Instructions for setting up the development environment and running the notification script.
+# Instructions for setting up the development environment and running the notification script.
 
 <br>
 
