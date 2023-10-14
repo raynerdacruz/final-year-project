@@ -46,7 +46,7 @@
 **6. Manage data in the database using the Django Admin web application**\
 &nbsp;&nbsp;&nbsp;&nbsp;You can manage the data in the database through the Django Admin web app.
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.1 To access the Django admin web app head over to URL: *127.0.0.1:8000/admin*. Note: If you have already logged in to the LREBS web app you wont need to login again.\
+&nbsp;&nbsp;&nbsp;&nbsp;6.1 To access the Django admin web app head over to URL: 127.0.0.1:8000/admin. *Note: If you have already logged in to the LREBS web app you wont need to login again.*\
 &nbsp;&nbsp;&nbsp;&nbsp;6.2 The login credentials for LREBS are \[eradicated\]:\[eradicated\].\
 &nbsp;&nbsp;&nbsp;&nbsp;6.3 Once logged in, you will see the tables of the Admin web app as well as the LREBS web app. You can click on each table to explore the data within that table.
 
